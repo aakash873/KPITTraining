@@ -1,0 +1,6 @@
+- _id which is an alphanumeric string
+- _brand which is a string
+- _type which is either CAR,BIKE or OTHER
+- _price which is a float value
+- parametrized constructor with all parameters
+- para

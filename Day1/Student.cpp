@@ -1,10 +1,21 @@
 #include<iostream>
-#include<Department.h>
-//#include<header.h>
+#include "Department.h"
+std::string DisplayEnum(Department dept){
+    if(dept==Department::AI_ML){
+        return "AI_ML";
+    }
+    else if(dept==Department::CS){
+        return "CS";
+    }
+    else
+        return "IT";
+}
+
 
 class Student
 {
 private:
+    
     
     int _roll_number;
     std::string _name;
@@ -19,18 +30,31 @@ public:
         float fees,
         char grade,
         Department dept
-    ) {
-        this->_name = name;
-        this->_fees = fees;
-        this->_roll_number = rnum;
-        this->_grade = grade;
-        this->_dept = dept;
+    ) 
+    : _name(name),_fees(fees),_roll_number(rnum),_grade(grade),_dept(dept){
     }
     ~Student() {
         std::cout<<"Student woth roll number: "
         <<this->_roll_number
         <<"is now destroyed\n";
     }
+
+    friend std::ostream &operator<<(std::ostream &os, const Student &rhs) {
+    
+        os << "_roll_number: " << rhs._roll_number
+    
+           << " _name: " << rhs._name
+    
+           << " _fees: " << rhs._fees
+    
+           << " _grade: " << rhs._grade
+    
+           << " _dept: " << DisplayEnum(rhs._dept);
+    
+        return os;
+    
+    }
+    
 };
 
 int main() {
@@ -45,4 +69,9 @@ int main() {
 
     Student arr[2] = {s1,s3}; //array of stack allocated Student objects
     Student* heapArr[2] = {s2,s4};
+   
+   // std::cout<<heapArr<<std::endl;
 }
+
+
+

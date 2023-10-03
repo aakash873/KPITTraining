@@ -1,0 +1,14 @@
+/*
+   We want to create objects of multiple classes (WHICH ARE PART OF INHERITENCE HIERARCHY)
+   We would like to store all objects IN THE SAME CONATAINER
+   ALL CLASSES IN THE HIERARCHY HAVE COMMON FUNCTIONALITY ( USUALLY DECLARED IN PARENT CLASS)
+*/
+
+
+
+create a class Bike with the following attributes
+
+- _bike_mileage which is float value
+- _bike_type which is either COMMUTE,SPORTS,ATV
+
+//3 locations reserved; each location can store 8 bytes(address)    

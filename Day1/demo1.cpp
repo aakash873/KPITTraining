@@ -8,7 +8,7 @@ int main(){
     std::cout<<"Data Inside n1:"<<n1<<"\n";
 
     //Data inside Sptr
-    std::cout<<"Data Inside Sptr:"<<Sptr<<"\n";
+    std::cout<<"Data Inside Sptr:"<<Sptr<<"\n";     //address of ptr
 
     //Jump ptr 1 time
     std::cout<<"Jump ptr 1 time:"<<*ptr<<"\n";

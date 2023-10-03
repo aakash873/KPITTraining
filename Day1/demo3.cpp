@@ -25,7 +25,7 @@ void magic(int& data){
 
 int main(){
     int n1 = 10;
-    magic(10); // 10 will be copied into scope of magic
+   // magic(10); // 10 will be copied into scope of magic
     magic(n1); // n1 will be copied into scope of magic 
 
     std::cout<<"Value in main after calling magic: "<<n1<<"\n";
