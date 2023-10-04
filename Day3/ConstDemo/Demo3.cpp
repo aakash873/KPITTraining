@@ -17,9 +17,10 @@ void Demo(){
     //*ptr=100;
     ptr=&n2;
     n1=30;
+    std::cout<<n1;
 
 }
 
 int main(){
-    
+   Demo(); 
 }

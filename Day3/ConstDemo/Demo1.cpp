@@ -1,9 +1,9 @@
-#include "/workspaces/CPPTraining/Day3/Scenario4/Vehicle.h"
+//#include "/workspaces/CPPTraining/Day3/Scenario4/Vehicle.h"
 
 #include <iostream>
 
 /*
-use case 1: wuth varibales of orimitive tyoes which are not pointers
+use case 1: with varibales of primitive types which are not pointers
 */
 void Demo(){
     //n1 is a constant integer

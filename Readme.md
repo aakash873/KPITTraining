@@ -8,6 +8,6 @@ Day2: scenario based developement in OOP in cpp -scenario A: simple classes with
 
 Day3: -scenario D: overloading in OOP
 
--->upcasting with virtual and non-virtual functionalities -->use of con in different situations
+-->upcasting with virtual and non-virtual functionalities -->use of const in different situations
 
 The cherno - YouTube channel

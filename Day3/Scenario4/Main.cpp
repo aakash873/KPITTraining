@@ -12,7 +12,7 @@ int main(){
     std::cout << "------------------\n";
 
     Vehicle* minValueCar=getMinPriceCar(garage);
-
+   // std::cout<<"Hello"<<std::endl;
     std::cout << *(minValueCar);
 
 }
