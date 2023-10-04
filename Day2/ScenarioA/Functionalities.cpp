@@ -8,6 +8,7 @@ void CreateObjects(Vehicle *container[3])
     container[0] = new Vehicle("v101", "Maruti", Type::CAR, 870000.0f);
     container[1] = new Vehicle("v102", "Honda", Type::CAR, 970000.0f);
     container[2] = new Vehicle("v103", "Toyota", Type::CAR, 1270000.0f);
+    //std::cout<<container[0];
 }
 
 /*
@@ -33,6 +34,4 @@ float AveragePrice(Vehicle* container[3])
     return total/3;
 }
 
-void CreateObjects(Car *arr[3])
-{
-}
+

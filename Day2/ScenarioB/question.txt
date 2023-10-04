@@ -1,23 +1,31 @@
+//abstract base class
 /*
-We want to create a new type and one or more
-sub-categories of that type
-Each time a new data value comes,it should belong
-to one of the sub-categories AND SHOULD NEVER
-be tagged as the general type we created
+
 */
 
-Create a class Vehicle with the following attributes
+/*
+create class Vehicle with following
 
-- _id which is an alphanumeric string
-- _brand which is a string
-- _type which is either CAR,BIKE or OTHER
-- _price which is a float value
-- parametrized constructor with all parameters
-- parametrized constructor without price parameter
-- a copy constructor to copy the object
-- calculateTax whose implementation might change in Each
-child but signature is "takes no parameter, return float"
+-_id which is an alphanumeric string
+-_brand which is a string
+-_type which is either CAR,BIKE or OTHER
+-_price which is a float value
+-create a constructor
+-create  a constructor without price
+-copy constructor to copy object
+-calculateTax whose implementation migth change in each
+ child but signature us "takes no parameter, return float"
+-calculateTax whose implementation is "return 10% of _price"
 
-Create a class Car with the following attributes
-- _type which could be SEDAN, SUV, HATCHBACK
-- calculateTax whole implementation is "return 10%
+cretae a class Car with following attributes
+SEDAN, SUV 
+
+
+
+functionalities-
+function to create the 3 objects on heap
+function to find the average price of all object
+
+demonstrate in functionalities in Main.cpp
+
+*/

@@ -3,7 +3,7 @@
 
 #include "BikeType.h"
 #include "Vehicle.h"
-#include <ostream>
+#include <iostream>
 
 class Bike : public Vehicle 
 {

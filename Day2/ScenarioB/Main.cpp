@@ -9,6 +9,8 @@ int main(){
 
     std::cout<<"Average for all cars: "<<AveragePrice(arr)<<"\n";
 
+    CallCalculateTax(arr);
+
     
 
     FreeMemory(arr);
